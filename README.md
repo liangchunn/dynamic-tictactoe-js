@@ -8,6 +8,7 @@ A simple and dynamic Tic Tac Toe program built on Javascript.
 
 ## How to use: 
 1) Create a new variable with the class TicTacToe();
+
 2) Pass variables:
 - boardSize: defines the board size (odd numbers only)
 - movesToWin: defines the winning criteria (eg: 3 in a row to win) | default: 3
