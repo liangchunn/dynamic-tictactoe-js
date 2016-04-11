@@ -314,10 +314,3 @@ TicTacToe.prototype.reset = function() {
     this.instructionHandler.innerText = "Player " + this.turn + "'s turn!";
     this.render();
 }
-
-var TicTac = new TicTacToe({
-    boardSize: 5,
-    movesToWin: 3,
-    players: 2,
-    instanceName: "TicTac"
-});
